@@ -29,3 +29,21 @@ nav {
     font-size: 2em;
     padding: 20px;
 }
+.menu .home::after {
+    content: "Home";
+}
+.menu .about::after {
+    content: "About";
+}
+.menu .skills::after {
+    content: "Skills";
+}
+.menu .my-work::after {
+    content: "My work";
+}
+.menu .contact::after {
+    content: "Contact";
+}
+.menu a::after {
+    display: block;
+}
